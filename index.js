@@ -7,7 +7,7 @@ var path = require('path');
 // Key - supported OS platforms
 // Object - array of supported architectures
 const supported = {
-  darwin: ['x64'],
+  darwin: ['x64', 'arm64'],
   linux: ['arm', 'arm64', 'ia32', 'x64'],
   win32: ['ia32', 'x64']
 }
